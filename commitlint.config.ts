@@ -1,5 +1,5 @@
 const commitlintConfig = {
-  extends: ['@commitlint/config-conventional']
+  extends: ["@commitlint/config-conventional"],
 };
 
 export default commitlintConfig;
