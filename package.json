@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "next:dev": "next dev --turbopack",
+    "next:build": "next build",
+    "next:start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write",
+    "release": "release-it --config release-it.config.ts"
   },
   "dependencies": {
     "class-variance-authority": "0.7.1",
