@@ -6,6 +6,7 @@ const releaseItConfig: Config = {
     commit: true,
     commitMessage: "release: v${version}",
     tag: true,
+    tagName: "v${version}",
     push: true,
   },
   github: {
