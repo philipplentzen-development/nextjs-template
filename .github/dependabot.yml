@@ -1,0 +1,26 @@
+version: 2
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "staging"
+    labels:
+      - "actions"
+    groups:
+      actions-deps:
+        patterns:
+          - "*"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "staging"
+    labels:
+      - "dependencies"
+    groups:
+      production-dependencies":
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
