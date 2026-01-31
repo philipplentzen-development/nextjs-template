@@ -7,8 +7,7 @@ This template is configured to help you get started quickly and efficiently, wit
 - ✨ Next.js 15 (App Router)
 - ⚛️ React 19
 - 🟦 TypeScript 5
-- 📏 EsLint 9
-- 🖌️ Prettier
+- ✨ Biome
 - 📜 Commitlint
 - 🐶 Husky
 - 🧹 Lint-staged
